@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PetLover - Pet Care Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .text-primary {
+            color: #87CEEB !important;
+        }
+
+        .btn-primary {
+            background-color: #87CEEB !important;
+            border-color: #87CEEB !important;
+        }
+
+        .btn-primary:hover {
+            background-color: #69b7da !important;
+            border-color: #69b7da !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #87CEEB;
+        }
+
+        .back-to-top {
+            background-color: #87CEEB !important;
+            border-color: #87CEEB !important;
+        }
+
+        .back-to-top:hover {
+            background-color: #69b7da !important;
+        }
+
+        .navbar-toggler {
+            border-color: #87CEEB !important;
+        }
+
+        .faq-section {
+            background-color: #f9f9f9;
+            padding: 50px 0;
+        }
+
+        .faq-section h2 {
+            color: #87CEEB;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .faq-answer {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra Superior Inicio -->
+    <div class="container-fluid">
+        <div class="row bg-secondary py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white pr-3" href="Fq.html">Preguntas Frecuentes</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="Help.html">Ayuda</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="Soporte.html">Soporte</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="https://www.youtube.com" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Barra Superior Fin -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+            <a href="login.html" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Seguridad</span>Primero</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="login.html" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
+                    <a href="service.html" class="nav-item nav-link">Servicios</a>
+                    <a href="price.html" class="nav-item nav-link">Precios</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Páginas</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                </div>
+                <a href="login.html" class="btn btn-lg btn-primary px-3 d-none d-lg-block">Solicitar Cotización</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- FAQ Section Start -->
+    <div class="container faq-section">
+        <div class="d-flex flex-column text-center mb-5">
+            <h2 class="mb-4">Preguntas Frecuentes</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="faq-item">
+                    <div class="faq-question">¿Cuáles son los horarios de atención?</div>
+                    <div class="faq-answer">Estamos disponibles de 8:00 AM a 8:00 PM todos los días.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Qué servicios ofrecen?</div>
+                    <div class="faq-answer">Ofrecemos una variedad de servicios veterinarios incluyendo chequeos generales, vacunaciones, y tratamientos especializados.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Cómo puedo solicitar una cita?</div>
+                    <div class="faq-answer">Puedes solicitar una cita llamándonos al +502 123 456 789 o utilizando nuestro sistema de reservas en línea.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Aceptan seguros de salud para mascotas?</div>
+                    <div class="faq-answer">Sí, aceptamos varios seguros de salud para mascotas. Por favor, contáctanos para más información sobre los seguros que aceptamos.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">¿Qué hacer en caso de una emergencia?</div>
+                    <div class="faq-answer">En caso de emergencia, llámanos inmediatamente al +502 123 456 789 para recibir instrucciones sobre cómo proceder.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section End -->
+
+    <!-- Footer Inicio -->
+    <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <a href="" class="navbar-brand">
+                    <h1 class="m-0 mt-n3 display-5 text-capitalize text-white"><span class="text-primary">Vet</span>Dog</h1>
+                </a>
+                <p>En VetDog nos preocupamos por el bienestar de tus mascotas, brindándoles el mejor cuidado y atención personalizada.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square" href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white mb-4">Contactar</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, City, Country</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+502 123 456 789</p>
+                <p><i class="fa fa-envelope mr-2"></i>info@petlover.com</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
+                <h4 class="text-white mb-4">Enlaces Rápidos</h4>
+                <a class="btn btn-link" href="Fq.html">Preguntas Frecuentes</a>
+                <a class="btn btn-link" href="Help.html">Ayuda/a>
+                <a class="btn btn-link" href="about.html">Sobre Nosotros</a>
+                <a class="btn btn-link" href="service.html">Servicios</a>
+                <a class="btn btn-link" href="price.html">Precios</a>
+                <a class="btn btn-link" href="contact.html">Contacto</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Fin -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function () {
+                    const answer = this.nextElementSibling;
+                    answer.style.display = (answer.style.display === 'block') ? 'none' : 'block';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
